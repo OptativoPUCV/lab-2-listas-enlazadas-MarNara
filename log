@@ -8,3 +8,9 @@ mi., 26 de mar. de 2025 20:56:43:
  tests:  1|5
 total_score: 10/70
 6064bb5
+mi., 26 de mar. de 2025 20:58:24: 
+ list.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+ tests:  1|5
+total_score: 10/70
+561b08c
