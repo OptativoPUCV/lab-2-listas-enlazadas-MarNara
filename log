@@ -73,3 +73,9 @@ mi., 26 de mar. de 2025 21:26:53:
  tests:  6|4
 total_score: 25/70
 aea56c8
+mi., 26 de mar. de 2025 21:28:13: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  6|4
+total_score: 25/70
+16ccbb7
