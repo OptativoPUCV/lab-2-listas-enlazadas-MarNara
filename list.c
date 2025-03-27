@@ -58,10 +58,9 @@ void * prevList(List * list) {
     return NULL;
 }
 
-void pushFront(List * list, void * data) {
-          
-    if (list->head != NULL) list->head->prev = data;
-    list->head = data; 
+void pushFront(List * list, void * data) {  
+    if (list->head != NULL) list->head->data = data;
+    //list->head = data; 
     
 }
 
