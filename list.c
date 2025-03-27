@@ -60,7 +60,7 @@ void * prevList(List * list) {
 
 void pushFront(List * list, void * data) {  
     if (list->head != NULL) list->head->data = data;
-    //list->head = data; 
+    list->head = data; 
     
 }
 
