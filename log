@@ -189,3 +189,17 @@ list.c:66:6: note: declared here
 cc1.exe: all warnings being treated as errors
 Compilation failed
 c6f49ff
+vi., 28 de mar. de 2025 19:17:09: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:76:22: error: 'return' with a value, in function returning void [-Werror]
+     return list->head->prev;
+            ~~~~~~~~~~^~~~~~
+list.c:66:6: note: declared here
+ void pushFront(List * list, void * data) {
+      ^~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+e83b3ac
