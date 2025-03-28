@@ -251,3 +251,9 @@ vi., 28 de mar. de 2025 19:22:16:
  tests:  9|3
 total_score: 35/70
 a3d3028
+vi., 28 de mar. de 2025 19:24:29: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+6244a86
