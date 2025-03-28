@@ -245,3 +245,9 @@ list.c:66:6: note: declared here
 cc1.exe: all warnings being treated as errors
 Compilation failed
 29e4515
+vi., 28 de mar. de 2025 19:22:16: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+a3d3028
