@@ -54,7 +54,7 @@ void * lastList(List * list) {
     //usar ultimo dato
     if(list->tail == NULL) return NULL;
     list->current = list->tail;
-    return list->tail->next;//el dato queda como el ultimo de la lista
+    return list->tail->data;//el dato que debe actualizarse en la lista
 }
 
 void * prevList(List * list) {
