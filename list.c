@@ -53,7 +53,7 @@ void * nextList(List * list) {
 void * lastList(List * list) {
     //usar ultimo dato
     if(list->tail == NULL) return NULL;
-    list->current = list->tail->next;
+    list->current = list->tail->data;//el dato que debe actualizarse en la lista
     return list->tail->data;//el dato que debe actualizarse en la lista
 }
 
