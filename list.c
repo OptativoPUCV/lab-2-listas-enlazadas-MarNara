@@ -67,8 +67,8 @@ void pushFront(List * list, void * data) {
     //Node* newNode =(Node*)malloc(sizeof(Node));
     //if(newNode == NULL) return;
     Node* newNode = createNode(data);
-    newNode->data = data;
-    newNode->prev = NULL;
+    newNode->data = data;//asignar el dato al nuevo nodo
+    newNode->prev = NULL;//que el prev del nuevo nodo sea nulo
     newNode->next = list->head;
     //aqui inserto al inicio.
     if(list->head) list->head->prev = newNode;
@@ -92,6 +92,13 @@ void pushBack(List * list, void * data) {
 }
 
 void pushCurrent(List * list, void * data) {
+    /*crear un nuevo nodo y dar ese nombre al dato que quiero agregar y luego lo modifico*/
+    Node* newNode = createNode(data);
+    newNode->data = data;
+    newNode->next = list->current;
+    if(list->current == NULL){
+        list->current->next = newNode;
+    }
 }
 
 void * popFront(List * list) {
