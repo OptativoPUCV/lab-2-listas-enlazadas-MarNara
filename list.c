@@ -69,9 +69,10 @@ void pushFront(List * list, void * data) {
     newNode->data = data;
     newNode->prev = NULL;
     newNode->next = list->head;
+    //aqui inserto al inicio.
     if(list->head) list->head->prev = newNode;
     list->head = newNode; 
-    //me falta analizar si solo hay un dato, el que yo ingrese
+    //me falta analizar si solo hay un dato (el que yo ingrese)
     if(list->head->next == NULL){
         list->tail = newNode;
     }
