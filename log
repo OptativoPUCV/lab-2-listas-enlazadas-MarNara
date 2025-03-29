@@ -430,3 +430,17 @@ vi., 28 de mar. de 2025 23:33:57:
  1 file changed, 3 insertions(+), 2 deletions(-)
  tests:  0|0
 73fe444
+vi., 28 de mar. de 2025 23:39:32: 
+ list.c | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:127:31: error: 'return' with no value, in function returning non-void [-Werror]
+     if(list->current == NULL) return;
+                               ^~~~~~
+list.c:121:8: note: declared here
+ void * popCurrent(List * list) {
+        ^~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+197d793
