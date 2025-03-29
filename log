@@ -346,3 +346,8 @@ vi., 28 de mar. de 2025 21:17:44:
  1 file changed, 10 insertions(+), 4 deletions(-)
  tests:  0|0
 bc29582
+vi., 28 de mar. de 2025 22:37:26: 
+ list.c | 19 +++----------------
+ 1 file changed, 3 insertions(+), 16 deletions(-)
+ tests:  0|0
+b89126d
