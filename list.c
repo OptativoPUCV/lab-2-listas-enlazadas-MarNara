@@ -144,7 +144,7 @@ void * popCurrent(List * list) {
     void* data = list->current;//aqui guardo los datos del dato actual antes de eliminarlos
 
     free(list->current);
-    list->current->next = der;
+    list->current = der;
     return data;
 }
 
