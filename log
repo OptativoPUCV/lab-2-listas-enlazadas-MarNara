@@ -307,3 +307,9 @@ vi., 28 de mar. de 2025 20:51:22:
  tests:  10|2
 total_score: 45/70
 05a3df8
+vi., 28 de mar. de 2025 21:02:26: 
+ list.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+ tests:  10|2
+total_score: 45/70
+1f4295c
