@@ -80,7 +80,8 @@ void pushFront(List * list, void * data) {
 }
 
 void pushBack(List * list, void * data) {
-    return NULL;
+    list->current = list->tail;
+    pushCurrent(list,data);
 
 }
 
