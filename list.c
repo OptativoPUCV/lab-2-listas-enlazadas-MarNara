@@ -80,19 +80,13 @@ void pushFront(List * list, void * data) {
 }
 
 void pushBack(List * list, void * data) {
-    list->current = list->tail;
-    Node* aux=list->head;
-    while (aux->next != NULL){
-        aux = aux->next; 
-    }
-    Node* newNode = createNode(data);
-    aux->next = newNode;
-    newNode->prev = aux;
+    return NULL;
 
 }
 
 void pushCurrent(List * list, void * data) {
-    /*crear un nuevo nodo y dar ese nombre al dato que quiero agregar y luego al previo del nuevo nodo le asigno el current*/
+    /*crear un nuevo nodo y dar ese nombre al dato que quiero agregar y luego al previo del nuevo nodo le 
+    asigno el current*/
     Node* newNode = createNode(data);
     newNode->data = data;
     //if(list->current == NULL) return;

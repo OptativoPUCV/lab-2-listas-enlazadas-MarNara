@@ -610,3 +610,17 @@ sá., 29 de mar. de 2025  0:25:21:
  tests:  12|0
 total_score: 70/70
 0d5f0a9
+sá., 29 de mar. de 2025  0:28:42: 
+ list.c | 12 +++---------
+ 1 file changed, 3 insertions(+), 9 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'pushBack':
+list.c:83:12: error: 'return' with a value, in function returning void [-Werror]
+     return NULL;
+            ^~~~
+list.c:82:6: note: declared here
+ void pushBack(List * list, void * data) {
+      ^~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+362960f
