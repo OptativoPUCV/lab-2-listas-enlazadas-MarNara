@@ -458,3 +458,17 @@ list.c:121:8: note: declared here
 cc1.exe: all warnings being treated as errors
 Compilation failed
 dd8b831
+vi., 28 de mar. de 2025 23:45:47: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:122:31: error: 'return' with no value, in function returning non-void [-Werror]
+     if(list->current == NULL) return;
+                               ^~~~~~
+list.c:121:8: note: declared here
+ void * popCurrent(List * list) {
+        ^~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+5501cb7
