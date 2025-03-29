@@ -123,9 +123,6 @@ void * popCurrent(List * list) {
     Node* izq = list->current->prev;
     Node* der = list->current->next;
     
-    izq->next = der;
-    der->prev = izq;
-    
     if(list->current == list->head ){
         list->head = der;// es decir que es el siguiente
         list->head->prev = NULL;
