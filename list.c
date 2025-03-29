@@ -143,11 +143,12 @@ void * popCurrent(List * list) {
     if(der != NULL){
         der->prev = izq;
     }
-    list->current->next = der;
+    
+    void* data = list->current;//aqui guardo los datos del dato actual antes de eliminarlos
 
     free(list->current);
-    
-    //return list->current;
+    list->current->next = der;
+    return data;
 }
 
 void cleanList(List * list) {
