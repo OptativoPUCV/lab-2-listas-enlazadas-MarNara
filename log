@@ -604,3 +604,9 @@ sá., 29 de mar. de 2025  0:23:35:
  tests:  11|1
 total_score: 55/70
 cb439b9
+sá., 29 de mar. de 2025  0:25:21: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  12|0
+total_score: 70/70
+0d5f0a9
