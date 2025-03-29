@@ -95,8 +95,8 @@ void pushCurrent(List * list, void * data) {
     /*crear un nuevo nodo y dar ese nombre al dato que quiero agregar y luego lo modifico*/
     Node* newNode = createNode(data);
     newNode->data = data;
-    newNode->prev = list->head;
-    newNode->next = list->current;
+    newNode->prev = list->current;
+    newNode->next = list->tail;
     if(list->head->next->data) {
         list->head->next = newNode;
 
